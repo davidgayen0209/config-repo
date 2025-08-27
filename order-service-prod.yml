@@ -1,0 +1,12 @@
+global:
+  message: Welcome to customer service prod Enviorment!!
+  server:
+    port: 8085
+    message: Hello from Order Prod!!
+    url: jdbc:mysql://localhost:3306/order_prod
+     username: root
+       password: 
+       jpa:
+          hibernate:
+             ddl-auto: update
+            show-sql: true
